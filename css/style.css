@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
+@import url("https://fonts.googleapis.com/css?family=Satisfy");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+* {
+  margin: 0 auto;
+}
+
+/* HEADER */
+abbr {
+  text-decoration: none;
+}
+
+header {
+  background: url(../img/huntington.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 280px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+header h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 32pt;
+  font-weight: lighter;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 2px 5px 3px black;
+  position: relative;
+  top: 2em;
+}
+header h2 {
+  font-family: Satisfy;
+  font-size: 15pt;
+  font-weight: lighter;
+  font-style: italic;
+  color: #fff;
+  opacity: 0.8;
+  position: relative;
+  display: inline-block;
+  top: 5.5em;
+  margin-left: 50px;
+}
+
+/* svg image */
+header h2:before {
+  background-image: url(../img/zen.svg);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  content: "";
+  right: 220px;
+}
+/* MAIN ARTICLE */
+
+h3 {
+  font-family: Roboto, sans-serif;
+  font-size: 11pt;
+  position: relative;
+  color: #000;
+  padding: 10px 70px;
+}
+
+p {
+  padding: 0 70px 15px 70px;
+  font-family: IBM Plex Mono;
+  font-size: 9pt;
+  color: #666;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+  }
+
+.participation,
+.benefits, .zen-resources {
+  background-color: #789f7d;
+  background-image: url(../img/bamboo.png);
+  background-repeat: repeat;
+  background-size: 35%;
+  font-family: IBM Plex Mono;
+  padding: 10px 0;
+}
+
+.participation p,
+.benefits p {
+  color: #fff;
+  padding: 0 70px;
+}
+
+.participation a,
+.benefits a {
+  color: #555;
+}
+
+/* PRE-FOOTER INFO */
+
+[role="contentinfo"] {
+  padding: 20px;
+  font-family: Roboto, sans-serif;
+  color: #aaa;
+  font-size: 14pt;
+  background-color: #789f7d;
+  background-size: cover;
+  text-align: center;
+}
+[role="contentinfo"] a {
+  font-family: Satisfy;
+  color: white;
+  font-size: 30pt;
+}
+
+/* FOOTER CONTENT */
+
+footer {
+  padding: 20px;
+  color: white;
+  font-size: 16pt;
+  background-color: #24504c;
+  text-align: center;
+}
+
+footer i {
+  color: #fff;
+  padding: 0 10px;
+}
+
+footer i:hover {
+  color: #aaa;
+}
+
+aside {
+  font-family: Roboto;
+  font-size: 8pt;
+  background-color: #d7e2d9;
+}
+
+aside ul {
+  list-style-type: none;
+  columns: 2;
+  text-align: center;
+  padding: 0;
+}
+
+
+
+.design-selection li {
+  border-bottom: 1px solid #aaa;
+  width: 100%;
+  padding: 20px;
+
+}
+
+.design-name {
+  font-size: 9pt;
+}
+.designer-name,
+.design-archives a {
+  font-family: IBM Plex Mono, sans-serif;
+  color: #aaa;
+}
+
+.design-archives li {
+    padding: 20px;
+
+}
+
+.zen-resources li {
+    padding: 10px;
+
+}
+
+aside h3 {
+  display: none;
+}
+
+
+.zen-resources a {
+  color: #4b6b4f;
+}
+

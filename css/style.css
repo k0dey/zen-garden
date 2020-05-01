@@ -6,7 +6,7 @@
   margin: 0 auto;
 }
 
-/* HEADER */
+/* HEADER STYLE */
 abbr {
   text-decoration: none;
 }
@@ -19,6 +19,7 @@ header {
   margin-bottom: 20px;
   text-align: center;
 }
+
 header h1 {
   font-family: Roboto, sans-serif;
   font-size: 32pt;
@@ -29,6 +30,7 @@ header h1 {
   position: relative;
   top: 2em;
 }
+
 header h2 {
   font-family: Satisfy;
   font-size: 15pt;
@@ -42,7 +44,8 @@ header h2 {
   margin-left: 50px;
 }
 
-/* svg image */
+/* SVG IMAGE STYLE */
+
 header h2:before {
   background-image: url(../img/zen.svg);
   background-size: 30px;
@@ -54,7 +57,9 @@ header h2:before {
   content: "";
   right: 220px;
 }
-/* MAIN ARTICLE */
+
+
+/* MAIN ARTICLE STYLE */
 
 h3 {
   font-family: Roboto, sans-serif;
@@ -80,6 +85,8 @@ p a:hover {
     text-decoration: underline;
   }
 
+  /* MAIN ARTICLE HIGHLIGHT STYLE */
+
 .participation,
 .benefits, .zen-resources {
   background-color: #789f7d;
@@ -101,7 +108,8 @@ p a:hover {
   color: #555;
 }
 
-/* PRE-FOOTER INFO */
+
+/* PRE-FOOTER INFO STYLE */
 
 [role="contentinfo"] {
   padding: 20px;
@@ -118,7 +126,8 @@ p a:hover {
   font-size: 30pt;
 }
 
-/* FOOTER CONTENT */
+
+/* FOOTER CONTENT STYLE */
 
 footer {
   padding: 20px;
@@ -137,6 +146,10 @@ footer i:hover {
   color: #aaa;
 }
 
+
+
+ /* DESIGN SELECTION CONTENT */
+
 aside {
   font-family: Roboto;
   font-size: 8pt;
@@ -150,13 +163,10 @@ aside ul {
   padding: 0;
 }
 
-
-
 .design-selection li {
   border-bottom: 1px solid #aaa;
   width: 100%;
   padding: 20px;
-
 }
 
 .design-name {
@@ -170,18 +180,15 @@ aside ul {
 
 .design-archives li {
     padding: 20px;
-
 }
 
 .zen-resources li {
     padding: 10px;
-
 }
 
 aside h3 {
   display: none;
 }
-
 
 .zen-resources a {
   color: #4b6b4f;
